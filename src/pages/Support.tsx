@@ -109,11 +109,6 @@ export function SupportPage() {
                 <MwLink to="https://discord.gg/r5cYshWM4G" />
               </Trans>
             </Item>,
-            <Item title={t("support.q2.title")}>
-              <Trans i18nKey="support.q2.body">
-                <MwLink to="https://github.com/sussy-code/smov" />
-              </Trans>
-            </Item>,
           ]}
         />
         <Paragraph className="flex space-x-3 items-center">
