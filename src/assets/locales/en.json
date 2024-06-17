@@ -165,6 +165,10 @@
       "420": {
         "default": "What would you like to watch this 4/20?",
         "extra": ["Happy 4/20 🥳!"]
+      },
+      "69": {
+        "default": "Up for something spicy?",
+        "extra": ["Happy 69 day 😘!"]
       }
     }
   },
@@ -352,6 +356,7 @@
         "customChoice": "Drop or upload file",
         "customizeLabel": "Customize",
         "offChoice": "Off",
+        "OpenSubtitlesChoice": "OpenSubtitles",
         "settings": {
           "backlink": "Custom subtitles",
           "delay": "Subtitle delay",
@@ -359,7 +364,9 @@
         },
         "title": "Subtitles",
         "unknownLanguage": "Unknown",
-        "dropSubtitleFile": "Drop subtitle file here! >_<"
+        "dropSubtitleFile": "Drop subtitle file here! >_<",
+        "scrapeButton": "Scrape subtitles",
+        "empty": "There are no provided subtitles for this."
       }
     },
     "metadata": {
@@ -438,7 +445,11 @@
       "shortRemaining": "-{{timeLeft}}"
     },
     "turnstile": {
+<<<<<<< HEAD
       "description": "Please prove your humanity by completing the Captcha on the right. This is to keep zenmov safe!",
+=======
+      "description": "Please prove your humanity by completing the quick challenge, this is to keep sudo-flix safe.",
+>>>>>>> upstream/main
       "error": "Failed to verify your humanity! Please try again.",
       "title": "Are You a Robot 🤖?",
       "verifyingHumanity": "Verifying your humanity... (^▽^)👍"
@@ -522,7 +533,8 @@
         "default": "Default",
         "gray": "Gray",
         "red": "Red",
-        "teal": "Teal"
+        "teal": "Teal",
+        "blck": "BLCK"
       },
       "title": "Appearance"
     },
